@@ -16,12 +16,12 @@ main img{
 figcaption {
     text-align: center;
 }
+
 @media (max-width: 1024px) {
     figure { 
-        width: 49vw;
+        width: 40vw;
     }
 }
-
 @media (max-width: 600px) { 
     figure {
         width: 90vw;
