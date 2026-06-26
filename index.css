@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+figure {width: 21vw;}
+
+main img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+figcaption {
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    figure { 
+        width: 49vw;
+    }
+}
+
+@media (max-width: 600px) { 
+    figure {
+        width: 90vw;
+    }
+}
